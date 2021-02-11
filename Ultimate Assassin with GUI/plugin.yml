@@ -1,0 +1,6 @@
+api-version: 1.16
+name: ultAssassin
+version: 1.0
+main: com.joda.assassin.Main
+commands:
+  start: 
