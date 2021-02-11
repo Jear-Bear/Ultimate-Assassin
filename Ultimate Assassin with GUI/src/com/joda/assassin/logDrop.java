@@ -22,13 +22,13 @@ public class logDrop implements Listener {
             final int randomInt = r.nextInt(100) + 1;
             if (randomInt > 0 && randomInt < 33) {
                 if (randomInt <= 2) {
-                    b.getWorld().dropItem(b.getLocation(), new ItemStack(Material.WATER_BUCKET, 1));
+                    b.getWorld().dropItem(b.getLocation(), new ItemStack(Material.WATER_BUCKET));
                 }
                 else if (randomInt <= 8) {
-                    b.getWorld().dropItem(b.getLocation(), new ItemStack(Material.HAY_BLOCK, 1));
+                    b.getWorld().dropItem(b.getLocation(), new ItemStack(Material.HAY_BLOCK));
                 }
                 else if (randomInt <= 18) {
-                    b.getWorld().dropItem(b.getLocation(), new ItemStack(Material.CRAFTING_TABLE, 1));
+                    b.getWorld().dropItem(b.getLocation(), new ItemStack(Material.CRAFTING_TABLE));
                 }
                 else {
                     b.getWorld().dropItem(b.getLocation(), new ItemStack(Material.LADDER, 3));
