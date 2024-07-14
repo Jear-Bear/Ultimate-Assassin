@@ -3,7 +3,7 @@
 <table style="width:100%;">
   <tr>
     <td style="width:30%;">
-      <a href="https://youtu.be/4kM1xks5ht4?t=44">
+      <a href="https://youtu.be/4kM1xks5ht4">
         <img src="https://img.youtube.com/vi/4kM1xks5ht4/0.jpg" alt="YouTube Video" style="width:100%;">
       </a>
     </td>
